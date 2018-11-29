@@ -12,6 +12,7 @@ public class Vote extends ArrayList<String>{
 	public void round(double n) {
 		n *= 100;
 		n = Math.round(n);
+		n =/ weight;
 	}
 	
 	public double getWeight() {
