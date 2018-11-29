@@ -2,7 +2,7 @@ import java.util.ArrayList;
 public class Round {
 	
 	int numCandidates;
-	ArrayList<Round> master = new ArrayList<Round>();
-	ArrayList<Round>[] = new ArrayList<Round>[numCandidates];
+	ArrayList<ArrayList<String>> master = new ArrayList<ArrayList<String>>();
+	ArrayList<ArrayList<String>>[] = new ArrayList<ArrayList<String>>[numCandidates];
 	
 }
