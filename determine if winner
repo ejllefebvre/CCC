@@ -1,0 +1,13 @@
+ public boolean win(ArrayList<ArrayList<ArrayList<String>>> byCand){
+        
+        boolean win;
+        
+        for (int i=0; i<byCand.size(); i++){
+            
+            if(((byCand.get(i).size())/())> (voters+1/Round.getnumCandidates())+1){
+                win=true;
+        }
+      return win;
+    } 
+    }
+    
